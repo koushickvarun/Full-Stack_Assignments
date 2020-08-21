@@ -1,3 +1,4 @@
+/****START OF NAVBAR****/
 .navbar{
 	background-color: black;
 	color: white;
@@ -5,6 +6,19 @@
 .navbar .navbar-brand{
 	font-size: 1.8em;
 }
+.navbar .navbar-toggler-icon{
+	color: white;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link{
+	text-align: center;
+	color: white;
+}
+.nav-item hr{
+	border-top: 1px solid white;
+}
+/****END OF NAVBAR****/
+
+/****START OF CONTAINER****/
 .text-center, .col-xs-12 span{
 	text-align: center;
 	padding: 20px 0px 25px;
@@ -21,16 +35,7 @@ a.top{
 	color: blue;
 	text-decoration: underline;
 }
-.navbar .navbar-toggler-icon{
-	color: white;
-}
-.navbar-dark .navbar-nav .nav-item .nav-link{
-	text-align: center;
-	color: white;
-}
-.nav-item hr{
-	border-top: 1px solid white;
-}
 *{
 	font-family: 'Oxygen';
 }
+/****END OF CONTAINER****/
