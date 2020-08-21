@@ -1,0 +1,36 @@
+.navbar{
+	background-color: black;
+	color: white;
+}
+.navbar .navbar-brand{
+	font-size: 1.8em;
+}
+.text-center, .col-xs-12 span{
+	text-align: center;
+	padding: 20px 0px 25px;
+	overflow: hidden;
+}
+.col-xs-12{
+	padding: 20px 20px 20px 20px;
+	margin-bottom: 25px;
+	background-color: lightgrey;
+	border-radius: 5px;
+	min-height: 1000px;
+}
+a.top{
+	color: blue;
+	text-decoration: underline;
+}
+.navbar .navbar-toggler-icon{
+	color: white;
+}
+.navbar-dark .navbar-nav .nav-item .nav-link{
+	text-align: center;
+	color: white;
+}
+.nav-item hr{
+	border-top: 1px solid white;
+}
+*{
+	font-family: 'Oxygen';
+}
